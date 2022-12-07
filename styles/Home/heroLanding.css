@@ -1,0 +1,272 @@
+.homePage_background {
+  position: absolute;
+  width: 100vw;
+  overflow: hidden !important;
+  margin-top: calc(100vh - 100vw);
+}
+
+@media (max-width: 1599px) {
+  .homePage_background {
+    margin-top: calc(855px - 100vw);
+  }
+}
+
+@media (max-width: 1024px) {
+  .homePage_background {
+    display: none;
+  }
+}
+
+
+.homePage_body {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.homePage_wrapper {
+  display: flex;
+}
+
+@media (max-width: 1700px) {
+  .homePage_wrapper {
+    height: 850px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homePage_wrapper {
+    display: block;
+  }
+}
+
+.hero_left_section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .hero_left_section {
+    width: 100%;
+    margin-top: 120px;
+  }
+}
+
+.hero_left_wrapper {
+  width: 534px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+@media (max-width: 1150px) {
+  .hero_left_wrapper {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero_left_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_left_wrapper {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero_left_section .origin_text {
+    display: none;
+  }
+}
+
+.hero_left_section .mobile_text {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .hero_left_section .mobile_text {
+    display: flex;
+  }
+}
+
+.hero_main_text_with_emoji {
+  font-family: 'Hanson';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #F8F8F8;
+}
+
+@media (max-width: 1150px) {
+  .hero_main_text_with_emoji {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero_main_text_with_emoji {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero_main_text_with_emoji {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+.hero_left_section .left_text {
+  font-family: 'OpenSans-SemiBold';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .hero_left_section .left_text {
+    text-align: center;
+  }
+}
+
+.hero_left_section .app_button_group {
+  display: flex;
+  z-index: 3;
+}
+
+.hero_left_section .apple_app_btn {
+  cursor: pointer;
+}
+
+.hero_left_section .google_play_btn {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+
+.hero_left_section .app_btn {
+  height: 50px;
+}
+
+.hero_right_section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .hero_right_section {
+    width: 100%;
+  }
+}
+
+.hero_right_section .bottom_earth {
+  position: fixed;
+  bottom: 0px;
+  z-index: 3;
+}
+
+.hero_right_section .bottom_earth .lottie_wrapper {
+  width: 660px;
+  margin-bottom: -370px;
+}
+
+@media (max-width: 1024px) {
+  .hero_right_section .bottom_earth .lottie_wrapper {
+    margin-bottom: -420px;
+    width: 620px;
+  }
+}
+
+.hero_right_section .hero_right_wrapper {
+  min-height: calc(100vh - 56px);
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .hero_right_section .hero_right_wrapper {
+    height: 650px;
+    min-height: 600px;
+  }
+}
+
+.hero_right_section .hero_right_wrapper .phone_wrapper {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  z-index: 4;
+  width: 300px;
+}
+
+@media (max-width: 1024px) {
+  .hero_right_section .hero_right_wrapper .phone_wrapper {
+    z-index: 2;
+  }
+
+  .hero_right_section .hero_right_wrapper .phone_wrapper .iphone_container {
+    visibility: hidden !important;
+  }
+}
+
+.inner_text_wrapper {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  right: 30%;
+  width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .inner_text_wrapper {
+    top: 5%;
+  }
+}
+
+.inner_text_wrapper .inner_text_content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.inner_text_wrapper .inner_text_content .inner_icons {
+  width: 35px;
+}
+
+.inner_text_wrapper .inner_text_content .inner_value {
+  font-family: 'Hanson';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F8F8F8;
+  margin-top: 12px;
+}
+
+.inner_text_wrapper .inner_text_content .inner_title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(248, 248, 248, 0.7);
+}

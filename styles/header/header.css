@@ -1,0 +1,332 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 16px;
+  width: 100%;
+  height: 72px;
+  background: linear-gradient(135deg, rgba(42, 208, 202, 0.1) 0%, rgba(126, 225, 155, 0.1) 9.19%, rgba(225, 246, 100, 0.1) 20.05%, rgba(254, 176, 254, 0.1) 39.84%, rgba(171, 179, 252, 0.1) 62.24%, rgba(93, 247, 164, 0.1) 80.99%, rgba(88, 196, 246, 0.1) 100%);
+  backdrop-filter: blur(30px);
+  z-index: 100;
+  top: 0px;
+}
+
+.header .header-wrapper {
+  max-width: 1440px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header .header-wrapper .logo-img2 {
+  display: none;
+}
+
+.header .header-wrapper .logo-img {
+  max-width: 380px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.header .header-wrapper .text-wrapper {
+  max-width: 605px;
+  width: 100%;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-menu {
+  z-index: 100;
+}
+
+.logo-menu .hide-modal {
+  transition: 1s;
+  display: none !important;
+}
+
+.logo-menu .show-modal {
+  transition-duration: 1s;
+  display: block !important;
+}
+
+.logo-menu .logOut-menu {
+  position: absolute;
+  width: 168px;
+  /* height: 250px; */
+  right: 30px;
+  margin-top: 30px;
+  background: #433372;
+  border: 1px solid rgba(223, 212, 255, 0.08);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 20px;
+  transition: 1s;
+}
+
+
+
+.logOut-menu .mt20 {
+  margin-top: 20px;
+}
+
+.logOut-menu .mt0 {
+  margin-top: 0px;
+}
+
+.logOut-menu .flex-line {
+  width: 104px;
+  height: 0px;
+  margin: 18px 0px;
+  border: 1px solid rgba(223, 212, 255, 0.08);
+}
+
+.logOut-menu .flex-bar {
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  white-space: nowrap;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logOut-menu .flex-bar .gradcolor {
+  background: linear-gradient(180deg, #EA378B 0%, #F6E74E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logOut-menu .flex-bar .ml10 {
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.logOut-menu .flex-bar .ml10:active {
+  transition: 0.2s;
+  transform: scale(0.95);
+}
+
+.logOut-menu .flex-bar .ml14 {
+  margin-left: 14px;
+  transition: 0.2s;
+}
+
+.logOut-menu .flex-bar .ml14:active {
+  transition: 0.2s;
+  transform: scale(0.95);
+}
+
+.header .nav-bar {
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header .nav-bar ul li {
+  margin-right: 48px;
+}
+
+.header .nav-bar ul li:last-child {
+  margin-right: 16px;
+}
+
+.header .nav-bar .links-cover {
+  display: flex;
+}
+
+.header .logo div {
+  font-family: "hanson", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.header .header_link {
+  background: linear-gradient(135deg, #2AD0CA 0%, #7EE19B 9.19%, #E1F664 20.05%, #FEB0FE 39.84%, #ABB3FC 62.24%, #5DF7A4 80.99%, #58C4F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none !important;
+}
+
+.header ul li a:hover {
+  background: linear-gradient(135deg, #2AD0CA 0%, #7EE19B 9.19%, #E1F664 20.05%, #FEB0FE 39.84%, #ABB3FC 62.24%, #5DF7A4 80.99%, #58C4F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header .main-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header .main-text:hover {
+  color: white !important;
+  text-decoration: none !important;
+  background: radial-gradient(33.27% 27.64% at 100% 33.1%, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(49.3% 49.3% at 30.99% 22.54%, #ea6c46 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(59.51% 59.51% at 59.68% 40.49%, #4d7686 0%, #f9753a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header .main-text.active {
+  background: radial-gradient(33.27% 27.64% at 100% 33.1%, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(49.3% 49.3% at 30.99% 22.54%, #ea6c46 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(59.51% 59.51% at 59.68% 40.49%, #4d7686 0%, #f9753a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header .wallet-button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 200px;
+  height: 40px;
+  padding: 12px;
+  background: rgba(223, 212, 255, 0.08);
+  border: 1px solid rgba(223, 212, 255, 0.08);
+  border-radius: 1000px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header .wallet-button:hover {
+  /* background-color: #875CFF; */
+  color: white;
+  transition: none !important;
+}
+
+.header .wallet-button .header-span-connectwallet {
+  margin-right: 40px;
+}
+
+
+.header .wallet-button .vector {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  right: -10px;
+  display: block;
+
+}
+
+.chain-icon {
+  display: flex;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nft-img {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%) !important;
+  width: 45px !important;
+  height: 51px !important;
+  right: -2px !important;
+}
+
+.wallet-button-mobile {
+  display: none !important;
+}
+
+.header .vector {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .header .header-wrapper .logOut-menu {
+    right: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .header-wrapper .text-wrapper {
+    display: none;
+  }
+
+  .header .vector {
+    display: block;
+  }
+
+  .logo-menu .logOut-menu {
+    right: 20px;
+  }
+
+  .wallet-button-mobile {
+    display: flex !important;
+  }
+
+  .header .wallet-button {
+    min-width: 90px;
+  }
+
+  .wallet-button-desktop {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .header .header-wrapper .logo-img {
+    display: none;
+  }
+
+  .header .header-wrapper .logo-img2 {
+    display: block;
+  }
+
+  .header .wallet-button {
+    min-width: 88px;
+  }
+
+  .wallet-button .header-span-connectwallet {
+    display: none;
+  }
+}

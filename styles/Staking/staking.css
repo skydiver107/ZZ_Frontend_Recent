@@ -1,0 +1,20 @@
+.stake-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.stake-card-wrapper {
+  max-width: 350px;
+  width: 100%;
+  padding: 16px;
+  background: #25174E;
+  border-bottom: 4px solid #875CFF;
+  border-radius: 16px;
+}
+
+.mt-16 {
+  margin-top: 64px;
+}
+
+.button-group {}

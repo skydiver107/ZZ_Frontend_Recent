@@ -1,0 +1,45 @@
+.wallet_union {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.popup_title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #25174E;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.popup_content {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(54, 37, 102, 0.7);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.popup_purple_button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.popup_white_button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

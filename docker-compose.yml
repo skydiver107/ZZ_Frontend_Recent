@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  api:
+    image: frontend-web-app
+    build: .
+    command: [ "npm", "run", "dev" ]
+    ports:
+      - "3000:3000"

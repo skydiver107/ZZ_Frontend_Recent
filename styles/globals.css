@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../styles/font/SofiaProRegular.ttf");
+}
+
+@font-face {
+  font-family: "sofia Pro Light";
+  src: url("../styles/font/SofiaProLight.ttf");
+}
+
+@font-face {
+  font-family: "Manrope Bolder";
+  src: url("../styles/Font2/static/Manrope-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: 'Hanson';
+  src: url('../public/hanson-bold/Hanson-Bold.otf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../styles/OpenSans/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Medium';
+  src: url('../styles/OpenSans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Normal';
+  src: url('../styles/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('../styles/OpenSans/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../styles/OpenSans/OpenSans-Bold.ttf');
+}
+
+/* * {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #362566;
+  font-size: 15px;
+  color: #2b3038;
+  font-family: "Sofia Pro";
+  max-width: 100vw;
+} */
